@@ -3,18 +3,18 @@
 
 Find all nodejs dependency for a given directory
 
-![npm](https://img.shields.io/npm/v/package-dependency.svg) ![license](https://img.shields.io/npm/l/package-dependency.svg) ![github-issues](https://img.shields.io/github/issues/wspecs/dependency-finder.svg)
+![npm](https://img.shields.io/npm/v/package-dependency.svg) ![license](https://img.shields.io/npm/l/package-dependency.svg) ![github-issues](https://img.shields.io/github/issues/wspecs/package-dependency.svg)
 
 ![nodei.co](https://nodei.co/npm/package-dependency.png?downloads=true&downloadRank=true&stars=true)
 
-![travis-status](https://img.shields.io/travis/wspecs/dependency-finder.svg)
-![stars](https://img.shields.io/github/stars/wspecs/dependency-finder.svg)
-![forks](https://img.shields.io/github/forks/wspecs/dependency-finder.svg)
+![travis-status](https://img.shields.io/travis/wspecs/package-dependency.svg)
+![stars](https://img.shields.io/github/stars/wspecs/package-dependency.svg)
+![forks](https://img.shields.io/github/forks/wspecs/package-dependency.svg)
 
-![forks](https://img.shields.io/github/forks/wspecs/dependency-finder.svg)
+![forks](https://img.shields.io/github/forks/wspecs/package-dependency.svg)
 
-![](https://david-dm.org/wspecs/dependency-finder/status.svg)
-![](https://david-dm.org/wspecs/dependency-finder/dev-status.svg)
+![](https://david-dm.org/wspecs/package-dependency/status.svg)
+![](https://david-dm.org/wspecs/package-dependency/dev-status.svg)
 
 ## Features
 
@@ -23,14 +23,15 @@ Find all nodejs dependency for a given directory
 ## Usage
 
 ```bash
-tsm-starter
-> ✔ Name of the package … name-of-the-package
-> ✔ Description of the package … Descriptionm for the package
-> ✔ License type … MIT
-> ✔ What's your name? … Author's Name
-> ✔ What's your email? … Author's Email
-> ✔ What's your website url? … Author's Url
-> ✔ What's your GitHub repo? … Author's GitHub Repo
+Usage: package-dependency [options] [command]
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+
+Commands:
+  update         Update package.json with all the node module found the project path
+  clean          Remove unsued module from package.json
 ```
 
 ## Install

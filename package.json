@@ -4,9 +4,9 @@
   "description": "Find all nodejs dependency for a given directory",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "wspecs/dependency-finder",
+  "repository": "wspecs/package-dependency",
   "bin": {
-    "dependency-finder": "bin/index.js"
+    "package-dependency": "bin/index.js"
   },
   "scripts": {
     "build": "rm -rf dist && tsc && npm run readme",
@@ -14,9 +14,7 @@
     "test": "mocha ./dist/test/*.js"
   },
   "keywords": [
-    "tsm",
-    "starter",
-    "dependency-finder"
+    "package-dependency"
   ],
   "author": {
     "name": "Wendly Saintil",
