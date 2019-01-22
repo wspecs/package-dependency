@@ -49,6 +49,7 @@ function findNodeModules(folder) {
                     files = _a.sent();
                     files = files.filter(function (x) {
                         return x.indexOf('node_modules') === -1 &&
+                            x.indexOf('.min.') === -1 &&
                             (x.endsWith('.ts') || x.endsWith('.js'));
                     });
                     modules = [];

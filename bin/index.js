@@ -6,7 +6,7 @@ const fs = require('fs');
 const log = require('great-logs');
 const shell = require('shelljs');
 
-const EXCLUDED_MODULES = new Set(['fs', 'os']);
+const EXCLUDED_MODULES = new Set(['fs', 'os', 'crypto']);
 const APP_FOLDER = `${__dirname}/..`;
 const PACKAGE_INFO = JSON.parse(fs.readFileSync(`${APP_FOLDER}/package.json`));
 

@@ -9,6 +9,7 @@ export async function findNodeModules(folder: string) {
   files = files.filter(
     (x: string) =>
       x.indexOf('node_modules') === -1 &&
+      x.indexOf('.min.') === -1 &&
       (x.endsWith('.ts') || x.endsWith('.js'))
   );
   let modules: string[] = [];
